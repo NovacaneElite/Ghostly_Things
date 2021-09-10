@@ -145,8 +145,6 @@ function draw() {
     isAliveFunc();
     Character();
     useGameLogic();
-
-    console.log(ghost.position.x - scrollPos);
 }
 
 //Key Listeners
