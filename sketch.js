@@ -83,22 +83,22 @@ function preload() {
     life = loadImage("./assets/images/life.png");
     winner_background = loadImage("./assets/images/winBackground.jpg");
 
-    backgroundMusic = loadSound("/assets/sounds/music2.mp3");
+    backgroundMusic = loadSound("./assets/sounds/music2.mp3");
     backgroundMusic.setVolume(0.008);
 
-    jumpingSound = loadSound("/assets/sounds/jumpSound.mp3");
+    jumpingSound = loadSound("./assets/sounds/jumpSound.mp3");
     jumpingSound.setVolume(0.1);
 
-    fallingSound = loadSound("/assets/sounds/falling.wav");
+    fallingSound = loadSound("./assets/sounds/falling.wav");
     fallingSound.setVolume(0.01);
 
-    enemyBumpSound = loadSound("/assets/sounds/monster-bump.wav");
+    enemyBumpSound = loadSound("./assets/sounds/monster-bump.wav");
     enemyBumpSound.setVolume(0.01);
 
-    eatingSound = loadSound("/assets/sounds/eat.wav");
+    eatingSound = loadSound("./assets/sounds/eat.wav");
     eatingSound.setVolume(0.1);
 
-    fireworkSound = loadSound("/assets/sounds/fireworks.wav");
+    fireworkSound = loadSound("./assets/sounds/fireworks.wav");
     fireworkSound.setVolume(0.01);
 }
 
