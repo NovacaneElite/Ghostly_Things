@@ -1,4 +1,4 @@
-import a from "../../assets"
+
 const loadImages = () => {
 
 }
