@@ -77,11 +77,11 @@ let musicPlaying;
 
 
 function preload() {
-    soundImg = loadImage("/assets/images/sound.png");
-    noSoundImg = loadImage("/assets/images/no-sound.png");
-    flag = loadImage("/assets/images/flag.svg");
-    life = loadImage("/assets/images/life.png");
-    winner_background = loadImage("/assets/images/winBackground.jpg");
+    soundImg = loadImage("./assets/images/sound.png");
+    noSoundImg = loadImage("./assets/images/no-sound.png");
+    flag = loadImage("./assets/images/flag.svg");
+    life = loadImage("./assets/images/life.png");
+    winner_background = loadImage("./assets/images/winBackground.jpg");
 
     backgroundMusic = loadSound("/assets/sounds/music2.mp3");
     backgroundMusic.setVolume(0.008);
